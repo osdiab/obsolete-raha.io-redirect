@@ -30,14 +30,14 @@
             );
           }
         }
-        console.log(window.location);
-        console.log("https://raha.app" + window.location.href.slice(window.location.protocol.length + "//raha.io".length));
-        /*
+        
+        var newUrl = "https://raha.app" + window.location.href.slice(window.location.protocol.length + "//raha.io".length);
+
         var meta = document.createElement('meta');
         meta.httpEquiv = "refresh";
         meta.content = "0;url=" + newUrl;
         document.getElementsByTagName('head')[0].appendChild(meta);
-        */
+
       }(window.location))
     </script>
     <!-- End Single Page Apps for GitHub Pages -->
